@@ -1,0 +1,44 @@
+/* Style the outer container */
+.foot {
+    background-color: #333; /* Set the background color to a dark color */
+    color: #fff; /* Set the text color to white */
+    padding: 20px; /* Add some padding to the footer */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute content evenly */
+  }
+  
+  /* Style the individual sections within the footer */
+  .foot > div {
+    flex: 1; /* Distribute sections equally within the container */
+    padding: 10px; /* Add padding inside each section */
+  }
+  
+  /* Style the headings */
+  .foot h2 {
+    font-size: 1.5rem; /* Increase the font size for headings */
+    margin-bottom: 10px; /* Add spacing below headings */
+  }
+  
+  /* Style the lists */
+  .foot ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+  }
+  
+  .foot ul li {
+    margin-bottom: 5px; /* Add spacing between list items */
+  }
+  
+  /* Style the links in the footer */
+  .foot a {
+    color: #fff; /* Set link text color to white */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Style the headings with the "style" attribute */
+  .foot h3[style] {
+    font-size: 1.2rem; /* Set the font size for special headings */
+    font-weight: bold; /* Make the headings bold */
+    margin-top: 10px; /* Add spacing above special headings */
+  }
+  
